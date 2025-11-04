@@ -1,0 +1,24 @@
+# Web Scraping
+selenium==4.15.0
+webdriver-manager==4.0.1
+beautifulsoup4==4.12.2
+
+# Data Processing
+pandas>=2.1.0
+numpy>=1.26.0
+
+# Database
+psycopg2-binary==2.9.9
+sqlalchemy==2.0.23
+
+# Web Application
+streamlit==1.28.1
+plotly==5.17.0
+
+# Configuration
+python-dotenv==1.0.0
+pyyaml==6.0.1
+
+# Utilities
+requests==2.31.0
+lxml==4.9.3
