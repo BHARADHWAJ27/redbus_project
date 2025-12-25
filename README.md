@@ -63,6 +63,7 @@ python -m venv .venv
 # 3. Install dependencies
 pip install -r requirements.txt
 
+
 # 4. Configure environment (.env file)
 DB_HOST=localhost
 DB_PORT=5432

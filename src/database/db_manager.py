@@ -489,10 +489,10 @@ if __name__ == "__main__":
     # Test configuration
     config = {
         'host': 'localhost',
-        'port': 3306,
+        'port': 5432,
         'database': 'redbus_db',
-        'user': 'root',
-        'password': 'your_password',
+        'user': 'redbus_db',
+        'password': '992499',
         'pool_size': 5
     }
     

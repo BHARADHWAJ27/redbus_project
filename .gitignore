@@ -2,6 +2,8 @@
 venv/
 env/
 ENV/
+.venv/
+*.venv
 
 # Python
 __pycache__/
@@ -9,24 +11,49 @@ __pycache__/
 *$py.class
 *.so
 .Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
 
 # Environment Variables
 .env
+.env.local
+.env.*.local
 *.env
 
 # Database
 *.db
 *.sqlite
 *.sqlite3
+redbus_db
+redbus_db/
 
 # Logs
 logs/
 *.log
+*.log.*
 
-# Output
+# Output & Screenshots
 output/
+output/screenshots/
 *.png
 *.jpg
+*.jpeg
 
 # Data
 data/raw/*
@@ -34,17 +61,53 @@ data/processed/*
 !data/raw/.gitkeep
 !data/processed/.gitkeep
 
-# IDE
+# IDE & Editor
 .vscode/
 .idea/
 *.swp
 *.swo
-
-# OS
+*~
 .DS_Store
 Thumbs.db
+*.sublime-project
+*.sublime-workspace
 
-# Temporary
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.hypothesis/
+
+# Temporary Files
 temp/
 tmp/
 *.tmp
+*.bak
+*.cache
+
+# OS Specific
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE Settings
+.vscode/settings.json
+.idea/**/workspace.xml
+.idea/**/tasks.xml
+.idea/**/dictionaries
+
+# Selenium WebDriver
+chromedriver
+chromedriver.exe
+geckodriver
+geckodriver.exe
+
+# Project Specific
+.streamlit/
+.streamlit/secrets.toml
+config/secrets.yaml

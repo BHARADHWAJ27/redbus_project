@@ -4,8 +4,8 @@ database:
   host: localhost
   port: 5432
   database: redbus_db
-  user: natha
-  password: ${DB_PASSWORD}  # Will be loaded from .env
+  user: postgres
+  password: 992499  # Will be loaded from .env
   pool_size: 5
   pool_recycle: 3600
   echo: false
